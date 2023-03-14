@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/857742036e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rufina&display=swap" rel="stylesheet">
+    <title>BookStore</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="header-item name"><img src="./src/logo.jpg">BOOKSTORE</div>
+        <div class="header-item"><i class="fa-solid fa-phone"></i>+123 456 7890</div>
+        <div class="header-item"><i class="fa-solid fa-envelope"></i>info@example.com</div>
+        <div class="header-search">
+            <input type="text" name="search" class="search" placeholder="Search">
+            <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+    <!-- slider -->
+    <div class="slider">
+        <div class="slider-images">
+            <img class="slider-image selected" alt="background" src="./src/background-slider.jpg">
+            <img src="./src/background-slider1.jpg" alt="background1" class="slider-image">
+            <img src="./src/background-slider2.jpg" alt="background2" class="slider-image">
+        </div>
+        <div class="slider-text">The more books we read, the wiser we become</div>
+        <div class="navbar">
+            <div class="navbar-items">
+                <div class="navbar-item">
+                    <a href="">HOME</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="#footer">ABOUT</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="">PRIVACY POLICY</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="">PRODUCT</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="">SALE OFF</a>
+                </div>
+                <div class="navbar-item">
+                    <a href="">CONTACT</a>
+                </div>
+                <div class="navbar-line"></div>
+            </div>
+            <div class="navbar-icons">
+                <div class="navbar-icon"><a href=""><i class="fa-brands fa-facebook-f"></i></a></div>
+                <div class="navbar-icon"><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                <div class="navbar-icon"><a href=""><i class="fa-solid fa-at"></i></a></div>
+                <div class="navbar-icon"><a href><i class="fa-brands fa-github"></i></a></div>
+                <div class="navbar-icon"><a href><i class="fa-brands fa-pinterest-p"></i></a></div>
+            </div>
+        </div>
+        <div class="slider-buttons">
+            <button class="slider-button selected"></button>
+            <button class="slider-button "></button>
+            <button class="slider-button "></button>
+        </div>
+    </div>
+
+    <!-- introduction -->
+    <div class="intro">
+        <div class="intro-title"> Welcome to <span>Ralph BookStore</span></div>
+        <div class="intro-content">In our store, we serve many great and famous books
+            around the world with many genres for you to choose from.
+            We are committed to selling books at reasonable prices and ensure that
+            the books are always new and carefully packaged when delivered to the buyer.</div>
+    </div>
+
+    <!-- new books -->
+    <div class="body-newBook">
+        <h1>NEW BOOKS</h1>
+        <div class="new-book">
+            <div class="card Les_Misérables">
+                <img src="./src/book1.jfif" class="book" alt="Les Misérables">
+                <button title="Les Misérables" class="card-button"><i class="fa-solid fa-magnifying-glass-plus"
+                        title="quick view"></i></button>
+                <img class="rating" src="./src/rating4.png" alt="rating">
+                <div class="book-name">Les Misérables </div>
+                <div class="price">$200.00</div>
+                <div class="buying">
+                    <div class="buying-item add">
+                        <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                    </div>
+                    <div class="buying-item">
+                        <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="buying-item">
+                        <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card Anna_Karenina">
+                <img src="./src/book2.jfif" class="book" alt="Anna Karenina">
+                <button title="Anna Karenina" class="card-button"><i
+                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                <img class="rating" src="./src/rating2.png" alt="rating">
+                <div class="book-name">Anna Karenina</div>
+                <div class="price">$278.87</div>
+                <div class="buying">
+                    <div class="buying-item add">
+                        <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                    </div>
+                    <div class="buying-item">
+                        <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="buying-item">
+                        <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card Harry_Potter">
+                <img src="./src/book3.jfif" class="book" alt="Harry Potter">
+                <button title="Harry Potter" class="card-button"><i
+                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                <img class="rating" src="./src/rating4.png" alt="rating">
+                <div class="book-name">Harry Potter</div>
+                <div class="price">$167.00</div>
+                <div class="buying">
+                    <div class="buying-item add">
+                        <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                    </div>
+                    <div class="buying-item">
+                        <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="buying-item">
+                        <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card Sherlock_Holmes">
+                <img src="./src/book4.jfif" class="book" alt="Sherlock Holmes">
+                <button title="Sherlock Holmes" class="card-button"><i
+                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                <img class="rating" src="./src/rating5.png" alt="rating">
+                <div class="book-name">Sherlock Holmes</div>
+                <div class="price">$250.45</div>
+                <div class="buying">
+                    <div class="buying-item add">
+                        <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                    </div>
+                    <div class="buying-item">
+                        <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="buying-item">
+                        <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card God_Farther">
+                <img src="./src/book5.jfif" class="book" alt="God Farther">
+                <button title="God Farther" class="card-button"><i
+                        class="fa-solid fa-magnifying-glass-plus"></i></button>
+                <img class="rating" src="./src/rating3.png" alt="rating">
+                <div class="book-name">God Father</div>
+                <div class="price">$320.10</div>
+                <div class="buying">
+                    <div class="buying-item add">
+                        <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                    </div>
+                    <div class="buying-item">
+                        <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="buying-item">
+                        <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="advertisement">
+        <a href="#">
+            <div class="text-advertisement">
+                <div class="title-advertisement">Gulliver's Travels Book</div>
+                <div class="content-advertisement">SALE UP TO 30% OFF</div>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="body--container">
+        <div class="body--col25">
+            <div class="categories">
+                <div class="categoric title">CATEGORIES</div>
+                <a href="">
+                    <div class="categoric">BioGraphies</div>
+                </a>
+                <a href="">
+                    <div class="categoric">Business</div>
+                </a>
+                <a href="">
+                    <div class="categoric">Literatures</div>
+                </a>
+                <a href="">
+                    <div class="categoric">Novels</div>
+                </a>
+                <a href="">
+                    <div class="categoric">Scientific</div>
+                </a>
+                <a href="">
+                    <div class="categoric">Health</div>
+                </a>
+                <a href="">
+                    <div class="categoric">Cooking</div>
+                </a>
+            </div>
+            <a>
+                <div class="novel-advertisement">
+                    <div class="novel-advertisement__text">Novel Books</div>
+                </div>
+            </a>
+            <div class="best-sellers">
+                <h3>BEST SELLERS</h3>
+                <div class="card-mini">
+                    <a href=""><img src="./src/book6.jfif" class="book-image"></a>
+                    <div class="card-mini__title">
+                        <img src="./src/rating4.png" class="rating-image">
+                        <a href="">
+                            <div class="card-mini__name">Romeo And Juliet</div>
+                        </a>
+                        <div class="card-mini__price">$450.21</div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="card-mini">
+                    <a href=""><img src="./src/book7.jfif" class="book-image"></a>
+                    <div class="card-mini__title">
+                        <img src="./src/rating5.png" class="rating-image">
+                        <a href="">
+                            <div class="card-mini__name">Robinson Crusoe</div>
+                        </a>
+                        <div class="card-mini__price">$300.60</div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="card-mini">
+                    <a href=""><img src="./src/book8.jfif" class="book-image"></a>
+                    <div class="card-mini__title">
+                        <img src="./src/rating5.png" class="rating-image">
+                        <a href="">
+                            <div class="card-mini__name">Full Dark No Stars</div>
+                        </a>
+                        <div class="card-mini__price">$220.15</div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container">
+                <a href>
+                    <div class="date-item">
+                        <div class="date">30 OCT</div>
+                    </div>
+                    <img class="news-image" src="./src/news-image.jfif">
+                </a>
+                <a href="">
+                    <div class="news-title">we buy your old books to sell to people who need it</div>
+                </a>
+                <div class="news-content">We are very happy and grateful that you can sell your old books to us.
+                    Then we will send it to poor children or people who really need them....</div>
+            </div>
+            <div class="line"></div>
+            <div class="sign-up">
+                <div class="sign-up__item title">SIGN UP FOR SEND NEW INFORMATION</div>
+                <div class="sign-up__item content">you will always be the first to receive our latest notifications
+                </div>
+                <input type="text" class="sign-up__item email" placeholder="enter your email address here..."
+                    autocomplete="off">
+                <button class="sign-up__item subscribe">SUBSCRIBE</button>
+            </div>
+
+        </div>
+        <div class="body--col73">
+            <div class="products-container">
+                <div class="products-container__title">Our Products</div>
+                <div class="products-container__concept">Browse the collection of our best selling and top interesting
+                    products.
+                    You’ll definitely find what you are looking for.</div>
+                <div class="products__title">HOT SALE</div>
+                <div class="hot-sale">
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/book10.jfif" class="book" alt="King Arthur">
+                        <button title="King Arthur" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating4.png" alt="rating">
+                        <div class="book-name">King Arthur</div>
+                        <div class="price">$287.05<span class="price-off">$290.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/book11.jfif" class="book" alt="The Wolf Of Wall Street">
+                        <button title="The Wolf Of Wall Street" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Wolf Of Wall Street </div>
+                        <div class="price">$199.99<span class="price-off">$200.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__titles">
+                    <button class="products__title selected">FEATURED<div class="line"></div></button>
+                    <button class="products__title">MOST VIEWED<div class="line"></div></button>
+                    <button class="products__title">ON SALE<div class="line"></div></button>
+                </div>
+                <div class="products">
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/book9.jfif" class="book" alt="The Lord Of Ring">
+                        <button title="The Lord Of Ring" class="card-button"><i
+                                class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <img class="rating" src="./src/rating5.png" alt="rating">
+                        <div class="book-name">The Lord Of Ring</div>
+                        <div class="price">$332.55<span class="price-off">$335.00</span></div>
+                        <div class="buying">
+                            <div class="buying-item add">
+                                <button class="add"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                            </div>
+                            <div class="buying-item">
+                                <button class="heart"><i class="fa-regular fa-heart"></i></button>
+                            </div>
+                            <div class="buying-item">
+                                <button><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="policy">
+                <div class="policy-items">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <div class="policy-item">
+                        <div class="policy-item__title">Free Shipping item</div>
+                        <div class="policy-item__content">For all orders over $700</div>
+                    </div>
+                </div>
+                <div class="policy-items">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    <div class="policy-item">
+                        <div class="policy-item__title">Money back guarantee</div>
+                        <div class="policy-item__content">100% money back guarante</div>
+                    </div>
+                </div>
+                <div class="policy-items">
+                    <i class="fa-sharp fa-solid fa-wallet"></i>
+                    <div class="policy-item">
+                        <div class="policy-item__title">Cash on delivery</div>
+                        <div class="policy-item__content">Lorem ipsum dolor ament consenter</div>
+                    </div>
+                </div>
+                <div class="policy-items">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <div class="policy-item">
+                        <div class="policy-item__title">Help & Support</div>
+                        <div class="policy-item__content">Call us : + 0123.4567.89</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="advertisement">
+        <a href="">
+            <div class="text-advertisement">
+                <div class="title-advertisement">Gulliver's Travels Book</div>
+                <div class="content-advertisement">SALE UP TO 30% OFF</div>
+            </div>
+        </a>
+    </div>
+
+    <div class="cart-item">
+        <button class="cart-item-button">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <div class="cart-amount">0</div>
+    </div>
+    
+
+    <div class="footer" id="footer">
+        <div class="navbar">
+            <div class="navbar--items">
+                <div class="navbar--item"><a href="">Home</a></div>
+                <div class="navbar--item"><a href="">Shop</a></div>
+                <div class="navbar--item"><a href="">Affiliate</a></div>
+                <div class="navbar--item"><a href="">Site Map</a></div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="extra-information">
+            <div class="information">
+                <h5>INFORMATION</h5>
+                <a href="">About Us</a>
+                <a href="">Delivery Information</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Gift Certificates</a>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="information">
+                <h5>CUSTOMER SERVICE</h5>
+                <a href="">Contact Us</a>
+                <a href="">Returns</a>
+                <a href="">Site Map</a>
+                <a href="">Order History</a>
+                <a href="">Wish List</a>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="information">
+                <h5>EXTRAS</h5>
+                <a href="">Brands</a>
+                <a href="">Gift Certificates</a>
+                <a href="">Affiliate</a>
+                <a href="">Special</a>
+                <a href="">My Account</a>
+            </div>
+            <div class="line-vertical"></div>
+            <div class="information">
+                <h5>STORE INFORMATION</h5>
+                <h6>My Company</h6>
+                <p>89 Black King street New York US</p>
+                <h6>Call us now:</h6>
+                <p>(+12)345-678-9100</p>
+                <h6>Email:</h6>
+                <p>info@example.com</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="cite-line">
+            <div class="cite">
+                <p> Copyright © 2018 <a href=""> PlazaThemes </a></p>
+                <p>All Right Reserved. </p>
+            </div>
+            <div class="payment">
+                <img src="./src/payment.png">
+            </div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

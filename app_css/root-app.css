@@ -1,0 +1,11 @@
+:root{
+    --header-color: #fcfcfc;
+    --header--background-color: #212121;
+    --header-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --main-color-op: rgba(255, 203, 107,0.5);
+    --main-color: rgb(252, 183, 54);
+    --body-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --footer-color:#999999;
+    --footer-font-family: 'Open Sans', sans-serif;
+    --book-font-family: 'Rufina', serif;
+}
